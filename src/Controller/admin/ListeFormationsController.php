@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Controller;
+namespace App\Controller\admin;
 
 use App\Entity\Formation;
 use App\Entity\Playlist;
@@ -49,7 +49,7 @@ class ListeFormationsController extends AbstractController {
     }
     
     /**
-     * @Route("/formation/filtrer/{champ}/{table}", name="formations.filtre")
+     * @Route("/admin/formation/filtrer/{champ}/{table}", name="lesformations.filtre")
      * @param type $champ
      * @param Request $request
      * @param type $table
